@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_drawable" >
+    android:background="@drawable/deep_space" >
 
     <EditText
         android:id="@+id/register_highscore_firstNameEditText"
@@ -12,6 +12,7 @@
         android:layout_marginLeft="14dp"
         android:layout_toRightOf="@+id/registerFirstNameLabel"
         android:ems="10"
+        android:textColor="@android:color/white"
         android:inputType="textPersonName" >
         
         <requestFocus />
@@ -25,6 +26,7 @@
         android:layout_alignBottom="@+id/registerLastNameLabel"
         android:layout_alignLeft="@+id/register_highscore_firstNameEditText"
         android:ems="10"
+        android:textColor="@android:color/white"
         android:inputType="textPersonName" />
 
     <TextView
@@ -35,6 +37,7 @@
         android:layout_alignBottom="@+id/registerScoreLabel"
         android:layout_alignLeft="@+id/register_highscore_firstNameEditText"
         android:text="Score"
+        android:textColor="@color/header_color"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -45,6 +48,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:text="@string/title_activity_register_highscore"
+        android:textColor="@color/header_color"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -54,6 +58,7 @@
         android:layout_below="@+id/register_highscore_heading"
         android:layout_marginTop="24dp"
         android:layout_toLeftOf="@+id/register_highscore_firstNameEditText"
+        android:textColor="@color/header_color"
         android:text="@string/register_score_scoreLabel" />
 
     <TextView
@@ -63,6 +68,7 @@
         android:layout_below="@+id/registerScoreValueTextView"
         android:layout_marginTop="30dp"
         android:layout_toLeftOf="@+id/register_highscore_heading"
+        android:textColor="@color/header_color"
         android:text="@string/register_score_firstNameLabel" />
 
     <TextView
@@ -72,6 +78,7 @@
         android:layout_below="@+id/register_highscore_firstNameEditText"
         android:layout_marginTop="21dp"
         android:layout_toLeftOf="@+id/register_highscore_firstNameEditText"
+        android:textColor="@color/header_color"
         android:text="@string/register_score_lastNameLabel" />
 
     <Button

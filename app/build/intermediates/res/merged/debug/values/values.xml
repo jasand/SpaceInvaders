@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/jan.arne.sandnes/AndroidStudioProjects/SpaceInvaders/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="SteelBlue">#4682B4</color>
+    <color name="header_color">#FFFF0F</color>
+    <color name="listItemColor">#444444</color>
+    <color name="listItemTextColor">#FFFFFF</color>
+    <color name="main_background_color">#414042</color>
+    <color name="version_bkgrd">#1a1a48</color>
+    <color name="version_color">#f0f0f0</color>
+    <!-- From: file:/Users/jan.arne.sandnes/AndroidStudioProjects/SpaceInvaders/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_about_header">30sp</dimen>
+    <dimen name="activity_high_score_header">20sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_menu_header">30sp</dimen>
+    <dimen name="activity_menu_text">20sp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="high_score_list_text_sz">15sp</dimen>
+    <dimen name="high_score_reg_text_sz">20sp</dimen>
+    <dimen name="register_high_score_header_sz">30sp</dimen>
+    <!-- From: file:/Users/jan.arne.sandnes/AndroidStudioProjects/SpaceInvaders/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about_buttontext">About Game</string>
+    <string name="about_game_content">Bla-bla-bla space invaders.</string>
+    <string name="about_game_header">About Space Invaders</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_settings_label">Settings</string>
+    <string name="app_name">SpaceInvaders</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="high_score_buttontext">High Score</string>
+    <string name="high_score_content">Bla-bla-bla space invaders.</string>
+    <string name="high_score_header">Space Invaders Hall of Fame</string>
+    <string name="main_menu_heading">Space Invaders</string>
+    <string name="main_menu_text">Defend yourself or be doomed!!!</string>
+    <string name="play_game_buttontext">Play Space Invaders</string>
+    <string name="prefs_networkingCategory">Network</string>
+    <string name="prefs_networkingTitle">Synchronize external HighScore</string>
+    <string name="prefs_networkinsSummaryOff">Sync not allowed</string>
+    <string name="prefs_networkinsSummaryOn">Sync allowed</string>
+    <string name="prefs_soundCategory">Audio</string>
+    <string name="prefs_soundSummaryOff">Sound off</string>
+    <string name="prefs_soundSummaryOn">Sound on</string>
+    <string name="prefs_soundTitle">Sound on startup</string>
+    <string name="prefs_switchTextOff">OFF</string>
+    <string name="prefs_switchTextOn">ON</string>
+    <string name="recister_cancel_dialog_text">Are you sure you don\'t want to register the High Score?</string>
+    <string name="register_cancel_button">Cancel</string>
+    <string name="register_ok_backToGameButtonText">Play Again</string>
+    <string name="register_ok_toHighScoreButtonText">High Scores</string>
+    <string name="register_score_firstNameLabel">First name:</string>
+    <string name="register_score_lastNameLabel">Last name:</string>
+    <string name="register_score_scoreLabel">Score:</string>
+    <string name="title_activity_about_game">AboutGame</string>
+    <string name="title_activity_high_score">HighScore</string>
+    <string name="title_activity_register_highscore">New High Score</string>
+    <!-- From: file:/Users/jan.arne.sandnes/AndroidStudioProjects/SpaceInvaders/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="button_text">
+		<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:textColor">#ffffff</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:layout_margin">2dp</item>
+    	<item name="android:textSize">15sp</item>
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:shadowColor">#000000</item>
+    	<item name="android:shadowDx">1</item>
+    	<item name="android:shadowDy">1</item>
+    	<item name="android:shadowRadius">2</item>
+	</style>
+</resources>

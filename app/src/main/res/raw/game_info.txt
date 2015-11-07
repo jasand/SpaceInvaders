@@ -1,0 +1,17 @@
+Remake of the old arcade classic "Space Invaders".
+The objective of the game is to defend yourself as long as you can from the alien space invaders.
+
+Once you clear a level, a new is started.
+The invaders will increase speed during the level and each level will start a bit faster than the previous.
+
+The points are calculated like this:
+Blue invader - 10 points
+Yellow invader - 20 points
+Orange invader - 30 points
+Mystery UFO - 100-300 points
+
+The HighScore list contains 20 entries.
+If you get a better score than the lowest entry in the list, you are allowed to register your High Score.
+
+The game can only be played in portrait mode.
+The sound can be toggled on and off and there is also a pause button should the need for pausing the game arise.

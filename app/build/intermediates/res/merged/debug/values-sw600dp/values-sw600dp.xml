@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/jan.arne.sandnes/AndroidStudioProjects/SpaceInvaders/app/src/main/res/values-sw600dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_about_header">50sp</dimen>
+    <dimen name="activity_high_score_header">40sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_menu_header">60sp</dimen>
+    <dimen name="activity_menu_text">30sp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="high_score_list_text_sz">20sp</dimen>
+    <dimen name="high_score_reg_text_sz">20sp</dimen>
+    <dimen name="register_high_score_header_sz">40sp</dimen>
+    <!-- From: file:/Users/jan.arne.sandnes/AndroidStudioProjects/SpaceInvaders/app/src/main/res/values-sw600dp/styles.xml -->
+    <eat-comment/>
+    <style name="button_text">
+		<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:textColor">#ffffff</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:layout_margin">3dp</item>
+    	<item name="android:textSize">25sp</item>
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:shadowColor">#000000</item>
+    	<item name="android:shadowDx">1</item>
+    	<item name="android:shadowDy">1</item>
+    	<item name="android:shadowRadius">2</item>
+	</style>
+</resources>

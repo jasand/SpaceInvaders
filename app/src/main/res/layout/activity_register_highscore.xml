@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_drawable" >
+
+    <EditText
+        android:id="@+id/register_highscore_firstNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/registerFirstNameLabel"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/registerFirstNameLabel"
+        android:ems="10"
+        android:inputType="textPersonName" >
+        
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/register_highscore_lastNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/registerLastNameLabel"
+        android:layout_alignBottom="@+id/registerLastNameLabel"
+        android:layout_alignLeft="@+id/register_highscore_firstNameEditText"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/registerScoreValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/registerScoreLabel"
+        android:layout_alignBottom="@+id/registerScoreLabel"
+        android:layout_alignLeft="@+id/register_highscore_firstNameEditText"
+        android:text="Score"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/register_highscore_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/title_activity_register_highscore"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/registerScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_highscore_heading"
+        android:layout_marginTop="24dp"
+        android:layout_toLeftOf="@+id/register_highscore_firstNameEditText"
+        android:text="@string/register_score_scoreLabel" />
+
+    <TextView
+        android:id="@+id/registerFirstNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerScoreValueTextView"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/register_highscore_heading"
+        android:text="@string/register_score_firstNameLabel" />
+
+    <TextView
+        android:id="@+id/registerLastNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_highscore_firstNameEditText"
+        android:layout_marginTop="21dp"
+        android:layout_toLeftOf="@+id/register_highscore_firstNameEditText"
+        android:text="@string/register_score_lastNameLabel" />
+
+    <Button
+        android:id="@+id/registerHighScoreBtnToGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/registerHighScoreBtnToHighScore"
+        android:layout_alignRight="@+id/register_highscore_heading"
+        android:layout_below="@+id/register_highscore_lastNameEditText"
+        android:layout_marginTop="29dp"
+        android:onClick="onOKBackToGameClicked"
+        android:text="@string/register_ok_backToGameButtonText" />
+
+    <Button
+        android:id="@+id/registerHighScoreBtnToHighScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/register_highscore_heading"
+        android:layout_below="@+id/registerHighScoreBtnToGame"
+        android:layout_marginTop="19dp"
+        android:onClick="onOKToHighScoreClicked"
+        android:text="@string/register_ok_toHighScoreButtonText" />
+
+    <Button
+        android:id="@+id/registerHighScoreCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/registerHighScoreBtnToHighScore"
+        android:layout_alignRight="@+id/registerHighScoreBtnToHighScore"
+        android:layout_below="@+id/registerHighScoreBtnToHighScore"
+        android:layout_marginTop="15dp"
+        android:onClick="onCancelClicked"
+        android:text="@string/register_cancel_button" />
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="no.jan.android.spaceinvaders"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/invaders_ico"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="no.jan.android.spaceinvaders.SplashActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="no.jan.android.spaceinvaders.MainMenuActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="no.jan.android.spaceinvaders.AboutGameActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_about_game"
+            android:parentActivityName="no.jan.android.spaceinvaders.MainMenuActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="no.jan.android.spaceinvaders.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="no.jan.android.spaceinvaders.HighScoreActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_high_score"
+            android:parentActivityName="no.jan.android.spaceinvaders.MainMenuActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="no.jan.android.spaceinvaders.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="no.jan.android.spaceinvaders.GameActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:parentActivityName="no.jan.android.spaceinvaders.GameActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="no.jan.android.spaceinvaders.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="no.jan.android.spaceinvaders.SettingsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/action_settings_label"
+            android:parentActivityName="no.jan.android.spaceinvaders.MainMenuActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="no.jan.android.spaceinvaders.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="no.jan.android.spaceinvaders.RegisterHighScoreActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/register_score_scoreLabel"
+            android:parentActivityName="no.jan.android.spaceinvaders.MainMenuActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="no.jan.android.spaceinvaders.MainMenuActivity" />
+        </activity>
+    </application>
+
+</manifest>

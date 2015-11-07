@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+     
+    <!-- Values for specific layout ??? -->
+    <dimen name="activity_menu_header">30sp</dimen>
+    <dimen name="activity_menu_text">20sp</dimen>
+    
+    <dimen name="activity_about_header">30sp</dimen>
+    
+    <dimen name="activity_high_score_header">20sp</dimen>
+    <dimen name="high_score_list_text_sz">15sp</dimen>
+    
+    <dimen name="register_high_score_header_sz">30sp</dimen>
+    <dimen name="high_score_reg_text_sz">20sp</dimen>
+
+</resources>

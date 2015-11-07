@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/prefs_networkingCategory">
+        <SwitchPreference android:title="@string/prefs_networkingTitle" 
+            android:defaultValue="true" 
+            android:summaryOff="@string/prefs_networkinsSummaryOff"
+            android:summaryOn="@string/prefs_networkinsSummaryOn"
+            android:switchTextOn="@string/prefs_switchTextOn"
+            android:switchTextOff="@string/prefs_switchTextOff"
+            android:key="networkSyncPref" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_soundCategory">
+        <SwitchPreference android:title="@string/prefs_soundTitle" 
+            android:defaultValue="true" 
+            android:summaryOn="@string/prefs_soundSummaryOn"
+            android:switchTextOn="@string/prefs_switchTextOn"
+            android:summaryOff="@string/prefs_soundSummaryOff"
+            android:switchTextOff="@string/prefs_switchTextOff"
+            android:key="audioOnOffPref" />
+    </PreferenceCategory>
+</PreferenceScreen><!-- From: file:/Users/jan.arne.sandnes/AndroidStudioProjects/SpaceInvaders/app/src/main/res/xml/appsettings.xml -->

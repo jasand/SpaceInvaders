@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_drawable" >
+
+    <EditText
+        android:id="@+id/register_highscore_firstNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/registerFirstNameLabel"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/registerFirstNameLabel"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/register_highscore_lastNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/registerLastNameLabel"
+        android:layout_alignBottom="@+id/registerLastNameLabel"
+        android:layout_alignLeft="@+id/register_highscore_firstNameEditText"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/registerScoreValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/registerScoreLabel"
+        android:layout_alignBottom="@+id/registerScoreLabel"
+        android:layout_alignLeft="@+id/register_highscore_firstNameEditText"
+        android:text="Score"
+        android:textSize="@dimen/high_score_reg_text_sz" />
+
+    <TextView
+        android:id="@+id/register_highscore_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/title_activity_register_highscore"
+        android:textSize="@dimen/register_high_score_header_sz" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_highscore_lastNameEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:weightSum="3" >
+
+        <Button
+            android:id="@+id/registerHighScoreCancel"
+            style="@style/button_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="81dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_button"
+            android:onClick="onCancelClicked"
+            android:text="@string/register_cancel_button" />
+
+        <Button
+            android:id="@+id/registerHighScoreBtnToHighScore"
+            style="@style/button_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/menu_button"
+            android:onClick="onOKToHighScoreClicked"
+            android:text="@string/register_ok_toHighScoreButtonText" />
+
+        <Button
+            android:id="@+id/registerHighScoreBtnToGame"
+            style="@style/button_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/menu_button"
+            android:onClick="onOKBackToGameClicked"
+            android:text="@string/register_ok_backToGameButtonText" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/registerScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_highscore_heading"
+        android:layout_marginTop="39dp"
+        android:layout_toLeftOf="@+id/register_highscore_heading"
+        android:text="@string/register_score_scoreLabel"
+        android:textSize="@dimen/high_score_reg_text_sz" />
+
+    <TextView
+        android:id="@+id/registerFirstNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerScoreLabel"
+        android:layout_marginTop="76dp"
+        android:layout_toLeftOf="@+id/register_highscore_heading"
+        android:text="@string/register_score_firstNameLabel"
+        android:textSize="@dimen/high_score_reg_text_sz" />
+
+    <TextView
+        android:id="@+id/registerLastNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_highscore_firstNameEditText"
+        android:layout_marginTop="74dp"
+        android:layout_toLeftOf="@+id/register_highscore_firstNameEditText"
+        android:text="@string/register_score_lastNameLabel"
+        android:textSize="@dimen/high_score_reg_text_sz" />
+
+</RelativeLayout><!-- From: file:/Users/jan.arne.sandnes/AndroidStudioProjects/SpaceInvaders/app/src/main/res/layout-sw600dp/activity_register_highscore.xml -->
